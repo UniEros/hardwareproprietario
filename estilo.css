@@ -1,0 +1,239 @@
+/*Arquivo CSS PETVET */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+    
+  body{
+       background:#085ddb;
+       font-family: arial;
+     }	
+ 
+ /*Inicio do cabeçalho */
+     #header{
+            width: 100%;
+            height: 140px;
+            margin: 0px auto;
+            background:#ffffff;
+                }
+     #header h1{
+         float:left;
+         padding: 5px;
+     }
+     #computador{
+        width: 25%;
+     }
+     #nav{ 
+         list-style:none; /*retira marcadores*/
+         padding-left: 0px;
+         display: block;
+         float: left;
+         margin-left: 130px;	
+         margin-top:60px;	  
+        }
+        #nav li {
+         float:left;
+         margin-left: 60px;
+         }
+         #nav a {
+             text-decoration: none;
+             text-transform: uppercase;
+             padding-top: 8px;
+             color:#000000;
+             font-weight: bold;
+             }
+             #nav a:hover{
+                 border-bottom: 5px solid #0a06e3;
+              }
+              ul#nav a.ativa{
+                 border-bottom: 5px solid #0a06e3;
+              }
+        /*fim do cabeçalho */	
+        #banner{
+         margin-top:15px;
+         width: 700px;
+         height: 400px;
+         margin: 0px auto;
+         position: relative;
+ } 
+ #section{
+     width:800px;
+     height:150px;
+     background:#085ddb;
+     margin:0px auto; /* sem pixel pode ser % ou Em todos */
+    text-align: center;
+     } 		
+             #footer{
+                 width: 100%;
+                 height: 45px;
+                 background:#085ddb;
+                 float:left;
+                 margin:0 auto;
+                 padding-top:45px;
+                 }
+                 #footer p{
+                     font-size: 12px;
+                     text-align: center;
+                     padding-top:10px;
+                    }
+                    #anco{
+                        font-size: 12px;
+                        text-align: right;
+                        padding-top:10px;
+                        width: 900px;
+                        float: left;
+                       }
+                       #topo{
+                        float: left;
+                        padding-left: 41%;
+                       }
+ #conteudo{
+     width:80%;
+     background:#085ddb;
+     margin:5% auto; 
+     }	
+ .artigo{
+         width:40%;
+         margin-top: 15px;
+         margin-left: 5%;
+         float:left;
+         }
+.img{
+    width: 45%;
+    float: left;
+    padding-top: 30%;
+    margin-left: 5%;
+}
+.img1{
+    width: 30%;
+    padding-top: 1%;
+    margin-left: 5%;
+}
+.img2{
+    width: 30%;
+    padding-top: 1%;
+    margin-left: 5%;
+}
+.img3{
+    width: 40%;
+    padding-top: 1%;
+    margin-left: 5%;
+}
+.img4{
+    width: 30%;
+    padding-top: 1%;
+    margin-left: 5%;
+}
+.img5{
+    width: 30%;
+    padding-top: 1%;
+    margin-left: 5%;
+}
+.img6{
+    width: 20%;
+    padding-top: 1%;
+    margin-left: 5%;
+}
+ .artigo p{
+             padding-top:15px; 
+             font-size: 17px;
+             text-align:justify;
+             }	
+ 
+ #conteudo1{
+     width:100%;
+     background:#085ddb;
+     margin:5% auto; 
+ }
+ .artigo1{
+     width:40%;
+     margin-left: 10%;
+     padding-top: 5%;
+     float:left;
+ }
+ .artigo1  h1{
+     font-weight:bold;
+     margin-bottom:5px;
+ }
+ 
+ /*codificação pag Contato*/		
+  #section_c{
+     width:800px;
+     height:530px;
+     background:#ffffff;
+     margin:10px auto; 
+            }
+ .contato{
+     width:400px;
+     height:300px;
+     margin:5px 5px;
+     float:left;
+ }
+ .contato textarea{
+     resize: none;
+ }
+ #envia{
+     position: absolute;
+ }
+ #joia{
+    margin-top:15px;
+    width: 400px;
+    height: 400px;
+    margin: 0px auto;
+    position: relative;
+} 
+      
+ @media screen and (min-width:800px) and (max-width:1180px){/*ipad*/
+     body, div{ background: #085ddb;}
+     #footer { margin-left:0px;}
+     #computador { width: 10%;}
+     #nav { margin-top: 20px; }
+     #conteudo { margin: 0px;}
+     .artigo {width: 90%;
+    margin-left: 10%;}
+     .img { margin-left: 10%;
+        padding-top: 3%;
+        width: 80%;
+        }
+     .artigo1{
+        width: 50%;
+     }
+     .img1{
+        width: 30%;
+        padding-bottom: 5%;
+     }
+     .img2{
+        width: 30%;
+        padding-bottom: 10%;
+     }
+     .img3{
+        width: 35%;
+        padding-bottom: 20%;
+     }
+     .img4{
+        width: 30%;
+        padding-bottom: 0%;
+     }
+     .img5{
+        padding-bottom: 20%;
+     }
+     #section_c{
+        background-color: #085ddb;
+     }
+     #banner{
+        padding-bottom: 48%;
+     }
+     #section_c{
+        padding-bottom: 48%;
+     }
+     #joia{
+        padding-bottom: 48%;
+     }
+     #anco{
+        width: 500px;
+     }
+     #topo{
+        padding-left: 35%;
+     }
+ }	     
